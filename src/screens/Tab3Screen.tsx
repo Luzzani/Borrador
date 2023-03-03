@@ -1,0 +1,14 @@
+import React, {useEffect} from 'react';
+
+import {View, Text} from 'react-native';
+
+export const Tab3Screen = () => {
+  useEffect(() => {
+    console.log('tab 3 screen');
+  }, []);
+  return (
+    <View>
+      <Text>Tab3Screen</Text>
+    </View>
+  );
+};
