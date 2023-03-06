@@ -18,7 +18,7 @@ import {
 // import {StackNavigator} from './StackNavigator';
 import {SettingsScreen} from '../screens/SettingsScreen';
 
-import {styles, colors} from '../theme/appTheme';
+import {styles} from '../theme/appTheme';
 import {Tabs} from './Tabs';
 
 const Drawer = createDrawerNavigator();
